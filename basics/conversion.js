@@ -33,4 +33,11 @@ let stringNum = String(num)
 //console.log(typeof stringNum); //string
 
 let a = "abc"
-console.log(a * 5); //NaN
+//console.log(a * 5); //NaN
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+console.log("1"+4+3); //143(because first element is string so all others will also be treated as string)
+console.log(1+4+"3"); //53(because first element is number so other will also be treated as number but string will be treated as string)
+
+
